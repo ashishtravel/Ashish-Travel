@@ -10,12 +10,23 @@ h6 {
   font-family: "Rubik", sans-serif;
 }
 .jumbotron {
-  background-image: url("background.jpg");
+  background-image: url("https://i.pinimg.com/originals/0f/f7/fe/0ff7fe9b484ffc867ff4bf0b30efe7e5.png");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
   min-height: 100vh;
+  background-repeat: no-repeat; /* Do not repeat the image */
+
 }
+
+.subtitle {
+  color: black;
+}
+
+.about-up-para {
+  text-align: justify;
+}
+
 section {
   padding-top: 4rem;
 }
