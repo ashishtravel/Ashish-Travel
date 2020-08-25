@@ -1,6 +1,61 @@
 body {
   font-family: "Open Sans", sans-serif;
+  background: #F4F2ED 0% 0% no-repeat padding-box;
+  opacity: 1;
 }
+
+.navbar {
+  background: #483F35 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #E8D9BE;
+    opacity: 1;
+}
+
+.horizontal-line{
+  color:#483F35 !important;
+}
+
+.template-text-color {
+  color:#483F35;
+  font-family: "Rubik", sans-serif;
+  text-align: justify;
+}
+
+.home-header-container {
+  background: #f4e4ca;
+}
+
+.home-title {
+  font-family: "Rubik", sans-serif;
+  text-transform: uppercase;
+  color: #483F35;
+      text-align: center;
+}
+
+.social-icons a {
+  display: inline-block;
+  height: 3.5rem;
+  width: 3.5rem;
+  background-color: #483F35;
+  color: #fff !important;
+  border-radius: 100%;
+  text-align: center;
+  font-size: 1.5rem;
+  line-height: 3.5rem;
+  margin-right: 1rem;
+}
+
+.social-icons a:last-child {
+  margin-right: 0;
+}
+
+.social-icons a:hover {
+  background-color: #BD5D38;
+}
+
 h1,
 h2,
 h3,
@@ -9,27 +64,19 @@ h5,
 h6 {
   font-family: "Rubik", sans-serif;
 }
-.jumbotron {
-  background-image: url("https://i.pinimg.com/originals/0f/f7/fe/0ff7fe9b484ffc867ff4bf0b30efe7e5.png");
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-  min-height: 100vh;
-  background-repeat: no-repeat; /* Do not repeat the image */
-
-}
 
 .subtitle {
   color: black;
 }
 
 .about-up-para {
-  text-align: justify;
+  font-size:20px
 }
 
 section {
   padding-top: 4rem;
 }
+
 #section-newsletter {
   padding-top: 0;
 }
